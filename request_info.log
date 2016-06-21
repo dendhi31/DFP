@@ -1,0 +1,8 @@
+[Jun 20 2016 10:40:11.000000 - INFO] service=UserService method=getCurrentUser responseTime=360 requestId=513eaf89b322f15159de876ae192fc05 server=ads.google.com isFault=0 faultMessage=null
+[Jun 20 2016 11:22:18.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=128 requestId=83ef3bca94850c72cebc3cbfb33abe3a server=ads.google.com isFault=0 faultMessage=null
+[Jun 20 2016 11:22:51.000000 - ERROR] service=ContentService method=getContentByStatement responseTime=158 requestId=cda078a326f22f9b91ac2211578b53de server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']
+[Jun 20 2016 11:23:22.000000 - INFO] service=CreativeTemplateService method=getCreativeTemplatesByStatement responseTime=1488 requestId=c9cafb03570a81ff93ccc546d03c848b server=ads.google.com isFault=0 faultMessage=null
+[Jun 20 2016 11:23:57.000000 - ERROR] service=CreativeWrapperService method=getCreativeWrappersByStatement responseTime=158 requestId=5484f0c8749d77cc2c21a0248bc75c2f server=ads.google.com isFault=1 faultMessage=[FeatureError.MISSING_FEATURE @ ; trigger:'HEADERS_AND_FOOTERS']
+[Jun 20 2016 11:24:44.000000 - INFO] service=PublisherQueryLanguageService method=select responseTime=131 requestId=53669edab78de7d8c7953ce7e86adcd5 server=ads.google.com isFault=0 faultMessage=null
+[Jun 20 2016 11:24:46.000000 - INFO] service=PublisherQueryLanguageService method=select responseTime=105 requestId=40e628971e265bc5e9f3663106aa277c server=ads.google.com isFault=0 faultMessage=null
+[Jun 20 2016 16:10:29.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=139 requestId=102ad2afbbed80ee32496a0f61686d39 server=ads.google.com isFault=0 faultMessage=null

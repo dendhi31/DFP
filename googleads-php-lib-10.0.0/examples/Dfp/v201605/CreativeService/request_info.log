@@ -1,0 +1,5 @@
+[Jun 15 2016 13:38:30.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=369 requestId=b9ccad3561b18978be730688960d6fd8 server=ads.google.com isFault=0 faultMessage=null
+[Jun 15 2016 13:40:18.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=541 requestId=9acb149973450be3388e7d0a4d057769 server=ads.google.com isFault=0 faultMessage=null
+[Jun 15 2016 13:40:55.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=404 requestId=0a12f57a497a61cda081c27dd0618168 server=ads.google.com isFault=0 faultMessage=null
+[Jun 15 2016 13:43:57.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=388 requestId=e088f8a7d605b9a8fe5a74bdf81d7fe7 server=ads.google.com isFault=0 faultMessage=null
+[Jun 15 2016 13:48:49.000000 - INFO] service=CreativeService method=getCreativesByStatement responseTime=407 requestId=2ac6b323dd7662601a6525707caed073 server=ads.google.com isFault=0 faultMessage=null

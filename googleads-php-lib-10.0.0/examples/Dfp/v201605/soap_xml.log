@@ -1,0 +1,1414 @@
+[Jun 17 2016 14:40:41.000000 - ERROR] POST /apis/ads/publisher/v201605/ContentService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 367
+Authorization: Bearer ya29.CjAEAxt3DFCPct-zvmO2p3_WV8m91Km9bJGZA8wE-uSqTREkn0pgyrBt-jiXbrDLmok
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getContentByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getContentByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 07:40:41 GMT
+Expires: Fri, 17 Jun 2016 07:40:41 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>36ede308addfdc28dce31e09ad9c2bdb</requestId>
+      <responseTime>169</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>VIDEO_ADS_SYNDICATION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 14:43:40.000000 - ERROR] POST /apis/ads/publisher/v201605/ProductService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 369
+Authorization: Bearer ya29.CjAEA3xzcmlmn24Xd5bzvnkk3TkGPxPM63jKcIahIx0qWc5fXi4_uhTKHDHrV9hubOE
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProductsByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getProductsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 07:43:40 GMT
+Expires: Fri, 17 Jun 2016 07:43:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>cc610dd5b4de383d52cc5f638f6c1e53</requestId>
+      <responseTime>217</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'OFFERS']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>OFFERS</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 14:44:08.000000 - ERROR] POST /apis/ads/publisher/v201605/ProductTemplateService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.CjAEA4DmP5noLk3T__UQQOjbYjC_Rr6hvBSGpOTJK9ze685LhZW6-X22fLVUO1N8LYM
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProductTemplatesByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getProductTemplatesByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 07:44:08 GMT
+Expires: Fri, 17 Jun 2016 07:44:08 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>44a666242376bb92a30238196b50a178</requestId>
+      <responseTime>191</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XSM_PRODUCT_TEMPLATES']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XSM_PRODUCT_TEMPLATES']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XSM_PRODUCT_TEMPLATES</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 14:44:40.000000 - ERROR] POST /apis/ads/publisher/v201605/SuggestedAdUnitService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 380
+Authorization: Bearer ya29.CjAEA3dg1nf1YfUl27kDLJkm2wzHs66MiQueo0NGKpmDrPY-LEwY8OP32TqwHNuD-jo
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getSuggestedAdUnitsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getSuggestedAdUnitsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 07:44:40 GMT
+Expires: Fri, 17 Jun 2016 07:44:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>8a038eee4092afa893dc7c170f8ed9e4</requestId>
+      <responseTime>148</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XFP_AUTO_IU_SUGGESTION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 14:44:48.000000 - ERROR] POST /apis/ads/publisher/v201605/SuggestedAdUnitService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 380
+Authorization: Bearer ya29.CjAEAzh9ekWHVVxy45aYcUHqQ6k_c6rtYskYErWGWovtVeE-QtXr0w8PqkGxalVBbdw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getSuggestedAdUnitsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getSuggestedAdUnitsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 07:44:48 GMT
+Expires: Fri, 17 Jun 2016 07:44:48 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>f9dfeef03078f914bfe7a83fe9e22a7b</requestId>
+      <responseTime>136</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XFP_AUTO_IU_SUGGESTION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 14:51:41.000000 - ERROR] POST /apis/ads/publisher/v201605/SuggestedAdUnitService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 380
+Authorization: Bearer ya29.CjAEA9gmmiFzu2XKrYd-RxyQudkpTXn-1SztroZPJ2l4oNTtF7gVM229ddQ0uFcosy0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getSuggestedAdUnitsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getSuggestedAdUnitsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 07:51:41 GMT
+Expires: Fri, 17 Jun 2016 07:51:41 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>260c5302e1a01ecb9cc68f04e7b598c1</requestId>
+      <responseTime>161</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XFP_AUTO_IU_SUGGESTION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:18:31.000000 - ERROR] POST /apis/ads/publisher/v201605/TeamService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 370
+Authorization: Bearer ya29.CjAEA_dp4PCdwigy3Evjlz7Of269Jzm3EWnc7aptJL9OhQOBGT4v0ZR90H0FuX5Oy6Y
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getTeamsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getTeamsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:18:31 GMT
+Expires: Fri, 17 Jun 2016 08:18:31 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>a017728d4f1578c5a759dd784de653cd</requestId>
+      <responseTime>118</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'TEAMS_XDSM']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'TEAMS_XDSM']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>TEAMS_XDSM</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:18:48.000000 - ERROR] POST /apis/ads/publisher/v201605/SuggestedAdUnitService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 380
+Authorization: Bearer ya29.CjAEA0jDa-rVq5lATgoM7zQ__M_s2t7kXhsnAyYgBDeGsBmFtgS83orCrctZtkNyfJU
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getSuggestedAdUnitsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getSuggestedAdUnitsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:18:48 GMT
+Expires: Fri, 17 Jun 2016 08:18:48 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>51b215caea9dc5f7199ed94ff8b9313a</requestId>
+      <responseTime>156</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XFP_AUTO_IU_SUGGESTION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:18:56.000000 - ERROR] POST /apis/ads/publisher/v201605/SuggestedAdUnitService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 502
+Authorization: Bearer ya29.CjAEA8lUwjGEB1z9K-97YvhKPL11E2gJCYs7N5YpK7QxOCXzRiNqyrgIUDtLNA1mdfI
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getSuggestedAdUnitsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE numRequests &gt;= :numRequests ORDER BY id ASC LIMIT 500</ns1:query>
+        <ns1:values>
+          <ns1:key>numRequests</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>INSERT_NUMBER_OF_REQUESTS_HERE</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getSuggestedAdUnitsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:18:56 GMT
+Expires: Fri, 17 Jun 2016 08:18:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>a1db6af766a528dd0a56896dce1ba76b</requestId>
+      <responseTime>136</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XFP_AUTO_IU_SUGGESTION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XFP_AUTO_IU_SUGGESTION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:19:52.000000 - ERROR] POST /apis/ads/publisher/v201605/ProposalLineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 379
+Authorization: Bearer ya29.CjAEA6seKLVJr73VX0FFApVZLcNLMteovoHTmPpIyLCcyVSl1h3Ra_09Ev3OB0p8pgQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProposalLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getProposalLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:19:52 GMT
+Expires: Fri, 17 Jun 2016 08:19:52 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>a5be5577924e88f5d1ccf3049e206c14</requestId>
+      <responseTime>2266</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'PROPOSALS_LITE']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'PROPOSALS_LITE']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>PROPOSALS_LITE</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:20:26.000000 - ERROR] POST /apis/ads/publisher/v201605/ProductTemplateService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 375
+Authorization: Bearer ya29.CjAEAw7DcmyG0qNQaiT11FaoOV1ZYLBUZb6V3Ok9zs-F36KjopbeJ7XVDBTpt0DLrk8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getProductTemplatesByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getProductTemplatesByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:20:26 GMT
+Expires: Fri, 17 Jun 2016 08:20:26 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>5756f33fa9d2e082e86592a0b6dc1af9</requestId>
+      <responseTime>216</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'XSM_PRODUCT_TEMPLATES']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'XSM_PRODUCT_TEMPLATES']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>XSM_PRODUCT_TEMPLATES</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:22:03.000000 - ERROR] POST /apis/ads/publisher/v201605/ActivityGroupService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 378
+Authorization: Bearer ya29.CjAEA8yLMMb96ZQR5CgKxH-x_DCW1hoEU1mokh0aslw4daAGM1GtrNMKGg55GNmQNP8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getActivityGroupsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getActivityGroupsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:22:03 GMT
+Expires: Fri, 17 Jun 2016 08:22:03 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>4c72169884da350a15080bbeefc900a1</requestId>
+      <responseTime>142</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[ActivityError.ACTIVITIES_FEATURE_REQUIRED @ ]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[ActivityError.ACTIVITIES_FEATURE_REQUIRED @ ]</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ActivityError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>ActivityError.ACTIVITIES_FEATURE_REQUIRED</errorString>
+            <reason>ACTIVITIES_FEATURE_REQUIRED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:23:21.000000 - ERROR] POST /apis/ads/publisher/v201605/ContentMetadataKeyHierarchyService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 388
+Authorization: Bearer ya29.CjAEA0OJ4YuEsanTwlUtqGcRviXliqT6tF8B5gR6nol2kTAmXY9k2ofPgM9_o6zoq6Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getContentMetadataKeyHierarchiesByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getContentMetadataKeyHierarchiesByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:23:21 GMT
+Expires: Fri, 17 Jun 2016 08:23:21 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>bebc05328e671a7c0fa8480be4378d43</requestId>
+      <responseTime>153</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'VAS_CONTENT_HIERARCHY']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'VAS_CONTENT_HIERARCHY']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>VAS_CONTENT_HIERARCHY</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:23:39.000000 - ERROR] POST /apis/ads/publisher/v201605/ContentService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 367
+Authorization: Bearer ya29.CjAEA4_miKfhW1GXoy2RPDmAcTHZvzqXmlnIWo4BqyImsHOUtsLNzp_Vdmq7v-MTws0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getContentByStatement>
+      <ns1:statement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:statement>
+    </ns1:getContentByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:23:39 GMT
+Expires: Fri, 17 Jun 2016 08:23:39 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>75928e0343354965e3f179f61ef044b7</requestId>
+      <responseTime>192</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'VIDEO_ADS_SYNDICATION']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>VIDEO_ADS_SYNDICATION</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:27:11.000000 - ERROR] POST /apis/ads/publisher/v201605/CreativeWrapperService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 379
+Authorization: Bearer ya29.CjAEA62jFPw9nc5RPKIvrQMbiilyt3Paobko-3wH2ddOus0vJpsOcu8nHEvbZ-BG_1k
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getCreativeWrappersByStatement>
+      <ns1:filterStatement>
+        <ns1:query>ORDER BY id ASC LIMIT 500</ns1:query>
+      </ns1:filterStatement>
+    </ns1:getCreativeWrappersByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:27:11 GMT
+Expires: Fri, 17 Jun 2016 08:27:11 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>7a43f861320fe8bca8784be656b4448b</requestId>
+      <responseTime>157</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[FeatureError.MISSING_FEATURE @ ; trigger:'HEADERS_AND_FOOTERS']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[FeatureError.MISSING_FEATURE @ ; trigger:'HEADERS_AND_FOOTERS']</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FeatureError">
+            <fieldPath/>
+            <trigger>HEADERS_AND_FOOTERS</trigger>
+            <errorString>FeatureError.MISSING_FEATURE</errorString>
+            <reason>MISSING_FEATURE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:28:53.000000 - ERROR] POST /apis/ads/publisher/v201605/ForecastService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 435
+Authorization: Bearer ya29.CjAEA4KI0bLUNDDdZJLA55OtqyOjndqEUOtjFKLYoxuJNrmEG1uifBHcdBGos4F3S90
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getAvailabilityForecastById>
+      <ns1:lineItemId>INSERT_LINE_ITEM_ID_HERE</ns1:lineItemId>
+      <ns1:forecastOptions>
+        <ns1:includeTargetingCriteriaBreakdown>true</ns1:includeTargetingCriteriaBreakdown>
+        <ns1:includeContendingLineItems>true</ns1:includeContendingLineItems>
+      </ns1:forecastOptions>
+    </ns1:getAvailabilityForecastById>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:28:53 GMT
+Expires: Fri, 17 Jun 2016 08:28:53 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Client</faultcode>
+      <faultstring>Unmarshalling Error: For input string: "INSERT_LINE_ITEM_ID_HERE" </faultstring>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 17 2016 15:29:12.000000 - ERROR] POST /apis/ads/publisher/v201605/ForecastService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 847
+Authorization: Bearer ya29.CjAEA3XJf_6188iUjXSR18kTTe2wI8xBqJkRHkcdl_9DXJ4wvXpGZ0fvRCTiF_5swto
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getAvailabilityForecast>
+      <ns1:lineItem>
+        <ns1:lineItem>
+          <ns1:startDateTimeType>IMMEDIATELY</ns1:startDateTimeType>
+          <ns1:endDateTime>
+            <ns1:date>
+              <ns1:year>2016</ns1:year>
+              <ns1:month>7</ns1:month>
+              <ns1:day>17</ns1:day>
+            </ns1:date>
+            <ns1:hour>4</ns1:hour>
+            <ns1:minute>29</ns1:minute>
+            <ns1:second>11</ns1:second>
+            <ns1:timeZoneID>America/New_York</ns1:timeZoneID>
+          </ns1:endDateTime>
+          <ns1:creativeRotationType>OPTIMIZED</ns1:creativeRotationType>
+          <ns1:roadblockingType>ONE_OR_MORE</ns1:roadblockingType>
+          <ns1:lineItemType>SPONSORSHIP</ns1:lineItemType>
+          <ns1:costType>CPM</ns1:costType>
+          <ns1:creativePlaceholders>
+            <ns1:size>
+              <ns1:width>300</ns1:width>
+              <ns1:height>250</ns1:height>
+              <ns1:isAspectRatio>false</ns1:isAspectRatio>
+            </ns1:size>
+          </ns1:creativePlaceholders>
+          <ns1:primaryGoal>
+            <ns1:goalType>DAILY</ns1:goalType>
+            <ns1:unitType>IMPRESSIONS</ns1:unitType>
+            <ns1:units>50</ns1:units>
+          </ns1:primaryGoal>
+          <ns1:targeting>
+            <ns1:inventoryTargeting>
+              <ns1:targetedAdUnits>
+                <ns1:adUnitId>104176585</ns1:adUnitId>
+                <ns1:includeDescendants>true</ns1:includeDescendants>
+              </ns1:targetedAdUnits>
+            </ns1:inventoryTargeting>
+          </ns1:targeting>
+        </ns1:lineItem>
+        <ns1:advertiserId>INSERT_ADVERTISER_COMPANY_ID_HERE</ns1:advertiserId>
+      </ns1:lineItem>
+      <ns1:forecastOptions>
+        <ns1:includeTargetingCriteriaBreakdown>true</ns1:includeTargetingCriteriaBreakdown>
+        <ns1:includeContendingLineItems>true</ns1:includeContendingLineItems>
+      </ns1:forecastOptions>
+    </ns1:getAvailabilityForecast>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Fri, 17 Jun 2016 08:29:12 GMT
+Expires: Fri, 17 Jun 2016 08:29:12 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Client</faultcode>
+      <faultstring>Unmarshalling Error: For input string: "INSERT_ADVERTISER_COMPANY_ID_HERE" </faultstring>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 20 2016 17:20:37.000000 - ERROR] POST /apis/ads/publisher/v201605/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 493
+Authorization: Bearer ya29.CjAHA4WZ-8Tfe7SuI-mjSbU_Y1NhGQQVWYXOrlJ1lzoVvf5fhWEpT4PGVZoaYZ154MM
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE orderId = :orderId AND isArchied &lt;&gt; 1 ORDER BY orderId ASC LIMIT 500</ns1:query>
+        <ns1:values>
+          <ns1:key>orderId</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>402684025</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 20 Jun 2016 10:20:37 GMT
+Expires: Mon, 20 Jun 2016 10:20:37 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>91021ceaf602a6df6d6ba4644f0fa188</requestId>
+      <responseTime>114</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[PublisherQueryLanguageContextError.UNEXECUTABLE @ Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[PublisherQueryLanguageContextError.UNEXECUTABLE @ Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem]</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PublisherQueryLanguageContextError">
+            <fieldPath>Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem</fieldPath>
+            <trigger/>
+            <errorString>PublisherQueryLanguageContextError.UNEXECUTABLE</errorString>
+            <reason>UNEXECUTABLE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 20 2016 17:21:08.000000 - ERROR] POST /apis/ads/publisher/v201605/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 493
+Authorization: Bearer ya29.CjAHA1Lc7Hb4N4S6Xe3HydoBNvEE6hRAdxCkywWEhx_UcLPIJ_TtcSMZIoeSl9Dp5iE
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE orderId = :orderId AND isArchied &lt;&gt; 1 ORDER BY orderId ASC LIMIT 500</ns1:query>
+        <ns1:values>
+          <ns1:key>orderId</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>402684025</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 20 Jun 2016 10:21:08 GMT
+Expires: Mon, 20 Jun 2016 10:21:08 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>d58a6dc989944fc88eb3a27c77da167b</requestId>
+      <responseTime>124</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[PublisherQueryLanguageContextError.UNEXECUTABLE @ Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[PublisherQueryLanguageContextError.UNEXECUTABLE @ Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem]</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PublisherQueryLanguageContextError">
+            <fieldPath>Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem</fieldPath>
+            <trigger/>
+            <errorString>PublisherQueryLanguageContextError.UNEXECUTABLE</errorString>
+            <reason>UNEXECUTABLE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Jun 20 2016 17:21:29.000000 - ERROR] POST /apis/ads/publisher/v201605/LineItemService HTTP/1.1
+Host: ads.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.9-1ubuntu4.17, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 487
+Authorization: Bearer ya29.CjAHAweK7bf_YFFNaZIBJjUn1VsgfMlgHiydorGWAFB90hGtT90zdtqwfwKprd1WGnM
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://www.google.com/apis/ads/publisher/v201605" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:networkCode>105176465</ns1:networkCode>
+      <ns1:applicationName>FIRST_APPLICATION (DfpApi-PHP/10.0.0, Common-PHP/10.0.0, PHP/5.5.9-1ubuntu4.17)</ns1:applicationName>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getLineItemsByStatement>
+      <ns1:filterStatement>
+        <ns1:query>WHERE orderId = :orderId AND isArchied != 1 ORDER BY orderId ASC LIMIT 500</ns1:query>
+        <ns1:values>
+          <ns1:key>orderId</ns1:key>
+          <ns1:value xsi:type="ns1:TextValue">
+            <ns1:value>402684025</ns1:value>
+          </ns1:value>
+        </ns1:values>
+      </ns1:filterStatement>
+    </ns1:getLineItemsByStatement>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 20 Jun 2016 10:21:29 GMT
+Expires: Mon, 20 Jun 2016 10:21:29 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alternate-Protocol: 443:quic
+Alt-Svc: quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://www.google.com/apis/ads/publisher/v201605">
+      <requestId>59185dc79ea327a4709695ccf5df9bd6</requestId>
+      <responseTime>111</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[PublisherQueryLanguageContextError.UNEXECUTABLE @ Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem]</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://www.google.com/apis/ads/publisher/v201605">
+          <message>[PublisherQueryLanguageContextError.UNEXECUTABLE @ Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem]</message>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PublisherQueryLanguageContextError">
+            <fieldPath>Mapping requested for unknown identifer: isArchied on table: LineItem with table scope: lineitem</fieldPath>
+            <trigger/>
+            <errorString>PublisherQueryLanguageContextError.UNEXECUTABLE</errorString>
+            <reason>UNEXECUTABLE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
